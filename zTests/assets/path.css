@@ -1,0 +1,36 @@
+.block {
+    
+    padding:20px;
+    margin:10px; 
+    font-size: 18;
+    text-align: center;
+
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+
+}
+.block1 {
+    
+    padding:20px;
+    margin:10px; 
+    font-size: 18;
+    text-align: center;
+
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+}
+.block2 {
+    
+    padding:20px;
+    margin:10px; 
+    font-size: 18;
+    text-align: center;
+
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+
+}

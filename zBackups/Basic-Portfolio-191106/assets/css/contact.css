@@ -1,0 +1,82 @@
+.nameHdr, .emailHdr, .messageHdr {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+.workArea{
+    position:relative;
+    clear:left;
+    width:960px;
+    background-color:white;
+    height:500px;
+}
+
+.contactHdr{
+    margin-left:75px;
+    position:absolute;
+    top:30px;
+    color:#4aaaa5;
+    font-size:24;
+}
+
+hr{
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    position:absolute;
+    top:55px;
+    width:83%;
+    margin-left:75px;
+}
+.nameHdr{
+    margin-left:75px;
+    position:absolute;  
+    top:85px;    
+}
+.nameIP{
+    margin-left:75px;
+    position:absolute;  
+    top:115px;    
+}
+.emailHdr{
+    margin-left:75px;
+    position:absolute;  
+    top:170px;
+    
+}
+.emailIP{
+    margin-left:75px;
+    position:absolute;  
+    top:200px;    
+}
+.messageHdr{
+    margin-left:75px;
+    position:absolute;  
+    top: 260px;
+    
+}
+.messageIP{
+    margin-left:75px;
+    position:absolute;  
+    top:290px;   
+}
+textarea {
+    width: 800px;
+    height: 100px;
+  }
+
+.btnSubmit{
+    margin-left:75px;
+    position:absolute;  
+    bottom:40px;   
+    height:40px;
+    width:100px; 
+    background-color: #4aaaa5;
+    color:white;    
+    text-align:center;
+}

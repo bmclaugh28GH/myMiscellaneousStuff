@@ -1,0 +1,28 @@
+html, body{
+    height:100%;
+}
+.container{
+    min-height: 100%;
+}
+.workArea{
+    overflow:auto;
+    padding-bottom:100px;
+}
+h1{
+    text-align: center;
+}
+.block{
+    height:300px;
+    width:100px;
+    background-color: coral;
+    border-style:solid;
+    border-width:1px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    height:100px;
+    background-color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+}

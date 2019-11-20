@@ -1,0 +1,18 @@
+section{
+    background-color: lightgray;
+    padding:20px;
+    position:relative;
+}.divA{  
+    background-color: lightblue;
+}
+.divA1{
+    color:mediumblue;
+    position:absolute;
+    left:0px;
+}
+.divB{
+    background-color: lightgreen;
+}
+.divC{
+    background-color: burlywood  ;
+}

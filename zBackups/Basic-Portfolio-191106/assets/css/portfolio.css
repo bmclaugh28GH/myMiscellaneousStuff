@@ -1,0 +1,103 @@
+
+.workArea{
+    position:relative;
+    clear:left;
+    width:960px;
+    height:500px;
+}
+
+.portfolioHdr{
+    margin-left:75px;
+    position:absolute;
+    top:30px;
+    color:#4aaaa5;
+    font-size:24;
+}
+
+hr{
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    position:absolute;
+    top:55px;
+    width:83%;
+    margin-left:75px;
+}
+
+.picSec{
+    height:125px;
+    width:125px;
+    position:relative;
+}
+.pic{
+    height:125px;
+    width:125px;
+}
+.picOverlay{
+    height:55px;
+    width:125px;
+    background-color:#4aaaa5;
+    color:white;
+    position:absolute;
+    bottom:0;
+}
+.p1 {
+    margin-left:75px;
+    position:absolute;
+    top:75px;
+
+}
+.po1{
+    top:75px;
+    margin-left:75px;
+}
+
+.p2 {
+    margin-left:250px;
+    position:absolute;
+    top:75px;
+
+}
+.po2{
+    top:75px;
+    margin-left:250px;
+}
+
+.p3 {
+    margin-left:425px;
+    position:absolute;
+    top:75px;
+
+}
+
+.po3{
+    top:75px;
+    margin-left:425px;
+}
+.p4 {
+    margin-left:75px;
+    position:absolute;
+    top:250px;
+
+}
+.po4{
+    top:250px;
+    margin-left:75px;
+}
+
+.p5 {
+    margin-left:250px;
+    position:absolute;
+    top:250px;
+
+}
+.po5{
+    top:250px;
+    margin-left:250px;
+}
+

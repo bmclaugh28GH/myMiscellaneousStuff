@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>35-LocationRedirect</title>
+    </head>
+    <body>
+
+
+
+        <script>
+        
+            console.log (window); 
+            console.log (window.navigator.platform); 
+        
+            if (window.navigator.platform === "Win32") {
+                console.log ("Welcome windows user"); 
+            }
+            else 
+            {
+                console.log ("Welcome not windows user"); 
+
+            }  
+
+
+            function success(pos) {
+
+                var crd = pos.coords;
+
+                console.log('Your current position is:');
+                console.log(`Latitude : ${crd.latitude}`);
+                console.log(`Longitude: ${crd.longitude}`);
+                console.log(`More or less ${crd.accuracy} meters.`);
+            } 
+
+            window.navigator.geolocation.getCurrentPosition(success); 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+    </body>
+</html>

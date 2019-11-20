@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Numbers</title>
+  </head>
+  <body>
+
+
+    <!--**************************************-->  
+    <script type="text/javascript">
+
+        const rock=1;
+        const paper=2;
+        const scissors=3;
+
+        var playerPick = 0;
+        var playerWins = 0; 
+        var playerLosses = 0; 
+        var computerPick = 0; 
+        var computerWins = 0; 
+        var computerLosses = 0; 
+        var ties = 0; 
+        var userErrors = 0; 
+
+        var games = 0; 
+
+        var keepPlaying = true; 
+
+        //while (keepPlaying) {
+        for (i=0; i<10; i++) {
+
+            games++; 
+            //console.log (games + " games");
+
+            playerPick = prompt ("Enter 1, 2, or 3 for R/P/S");
+            computerPick = Math.floor (Math.random () * (3 - 1 + 1) + 1);
+            console.log ("computer picked " + computerPick + " user picked " + playerPick);
+
+            // error checking 
+            if (playerPick < 1 || playerPick > 3 || playerPick == NaN) {
+                userErrors++; 
+            }
+            // who won? 
+            else if (computerPick === rock && parseInt (playerPick) === rock) {
+                ties++;
+            }
+            else if (computerPick === rock && parseInt (playerPick) === paper) {
+                playerWins++;
+                computerLosses++;
+            } 
+            else if (computerPick === rock && parseInt (playerPick) === scissors) {
+                computerWins++;
+                playerLosses++;
+            }
+            else if (computerPick === paper && parseInt (playerPick) === rock) {
+                computerWins++;
+                playerLosses++;
+            }
+            else if (computerPick === paper && parseInt (playerPick) === paper) {
+                ties++;
+            }
+            else if (computerPick === paper && parseInt (playerPick) === scissors) {
+                playerWins++;
+                computerLosses++;
+            }
+            else if (computerPick === scissors && parseInt (playerPick) === rock) {
+                playerWins++;
+                computerLosses++;
+            }
+            else if (computerPick === scissors && parseInt (playerPick) === paper) {
+                computerWins++;
+                playerLosses++;
+            }
+            else if (computerPick === scissors && parseInt (playerPick) === scissors) {
+                ties++;
+            }
+
+           // keepPlaying = confirm ("Do you want to keep playing?");
+        }
+
+        console.log ("");
+        console.log ("Done. Games " + games);
+        console.log ("Player won " + playerWins);
+        //console.log ("Player lost " + playerLosses);
+        console.log ("Computer won " + computerWins);
+        //console.log ("Computer lost " + computerLosses);
+        console.log ("Ties " + ties);
+        console.log ("User errors " + userErrors); 
+
+    </script>
+  </body>
+</html>

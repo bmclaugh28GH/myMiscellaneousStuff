@@ -1,0 +1,61 @@
+body{
+    font-size:18px;
+    line-height:27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width:1024px;
+    margin:100px auto;
+}
+#main-content{
+    float: left;
+    background-color: cadetblue;
+    width:400px;
+    padding:20px;
+}
+#sidebar{
+    float: right; 
+    background-color: paleturquoise;
+    width:400px;
+    padding:20px;
+}
+
+@media screen and (max-width:768px)
+{
+
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: gray;
+    }
+    .wrapper{
+        width:300px;
+    }
+    #main-content{
+        float: left;
+        background-color: pink;
+        width:200px;
+    }
+    #sidebar{
+        float: right; 
+        background-color: yellow;
+        width:200px;
+    }
+}
+@media screen and (max-width:660px)
+{
+
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: blue;
+    }
+    #main-content{
+        float: left;
+        background-color: pink;
+        width:200px;
+    }
+    #sidebar{
+        float: right; 
+        background-color: yellow;
+        width:200px;
+    }
+}

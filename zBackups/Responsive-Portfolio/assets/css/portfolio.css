@@ -1,0 +1,68 @@
+
+.workArea{
+    clear:left;
+    height:60%;
+}
+
+.portfolioHdr{
+    margin-left:75px;
+    color:#4aaaa5;
+    font-size:24;
+}
+
+hr{
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    width:83%;
+    margin-left:75px;
+}
+.picBlock{
+    position:relative;  
+}
+.pic{
+    height:125px;
+    width:60%;
+    margin-left:40%;
+    margin-top:20px;
+}
+.picOverlay{
+    height:55px;
+    width:60%;
+    background-color:#4aaaa5;
+    color:white;
+    position:absolute;
+    bottom:0;
+    margin-left:40%;
+}
+.pb1, .pb2, .pb3{
+    float:left;
+}
+.clearBoth{
+    clear:both;
+}
+.pb4, .pb5{
+    float:left;
+}
+
+@media screen and (max-width:768px)
+{
+    .workArea{
+        height:100%;
+    }
+
+    .picBlock{
+        position:static;
+        clear:both;
+        width:90%;
+    }
+    .picOverlay{
+        margin-left:0;
+    }
+
+}

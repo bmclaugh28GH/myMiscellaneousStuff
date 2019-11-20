@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>33-QuestionGame</title>
+    </head>
+    <body>
+
+        <script>
+        
+                var q0 = {"question":"is sky blue0", "answer":true}; 
+                var q1 = {"question":"is sky blue1", "answer":true}; 
+            var q2 = {"question":"is sky blue2", "answer":true}; 
+            var q3 = {"question":"is sky blue3", "answer":true}; 
+            var q4 = {"question":"is sky blue4", "answer":true}; 
+            var q5 = {"question":"is sky blue5", "answer":false}; 
+            var q6 = {"question":"is sky blue6", "answer":false}; 
+            var q7 = {"question":"is sky blue7", "answer":false}; 
+            var q8 = {"question":"is sky blue8", "answer":false}; 
+            var q9 = {"question":"is sky blue9", "answer":false}; 
+
+            var qArray = [q0, q1, q2, q3, q4, q5, q6, q7, q8, q9]; 
+
+            var answer; 
+            var errCt = 0;     
+
+            for (i=0; i<10; i++) {
+                answer = confirm (qArray [i].question);
+                console.log (answer);
+                if (answer === qArray [i].answer) {
+                    console.log ("correct"); 
+                }
+                else {
+                    console.log ("incorrect"); 
+                    errCt++; 
+                }
+            }
+            console.log ("incorrect ct " + errCt); 
+        
+        </script>
+    </body>
+</html>

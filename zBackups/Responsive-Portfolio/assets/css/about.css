@@ -1,0 +1,54 @@
+h1{
+    width:90%;
+    padding:5px;
+    margin-left:75px;
+    margin-top:20px;
+    color:#4aaaa5;
+    background-color: white;
+    font-size:24;
+}
+.aboutHdr{
+    width:80%;
+}
+hr{
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.myPic{
+    float:left;
+    padding:5px;
+    margin-left:75px;
+}
+p{
+    padding:10px;
+    margin-left:75px;
+    margin-right:40px;
+}
+.mabelPic{
+    float:right;
+    margin-right:40px;
+}
+
+@media screen and (max-width:768px)
+{
+    .aboutHdr{
+        width:50%;
+        margin-left: 15%;
+    }
+    .myPic{
+        width:70%;
+        margin-left:10%;
+    }
+    p{
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+}

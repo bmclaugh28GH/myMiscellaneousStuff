@@ -1,0 +1,22 @@
+.everything{
+    background-color:burlywood;
+    height:100%;
+    width:100%;
+}
+.s1{
+    height:125px;
+    width:125px;
+    position:relative;
+}
+.pic {
+    height:125px;
+    width:125px;
+    position:absolute;
+}
+.picOverlay{
+    width:125px;
+    height:50px;
+    background-color:#4aaaa5;
+    position:absolute;
+    bottom:0;
+}
